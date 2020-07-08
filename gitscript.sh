@@ -1,1 +1,1 @@
-cd hellonode && git checkout master && git pull origin master && npm i
+cd hellonode && git checkout master && git pull origin master && npm i && npm start

@@ -4,6 +4,7 @@
     . ~/.nvm/nvm.sh
     nvm install v10.11.0
     npm install
+    npm start
     npm install -g nodemon pm2
     pm2 restart ecosystem.config.js
     exit

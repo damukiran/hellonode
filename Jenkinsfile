@@ -9,7 +9,7 @@ node {
     stage('Deploy to Dev') {
     /*  def git = 'git branch'*/
     /*  def inst = 'cd hellonode\n git fetch --all\n git reset --hard origin/master' */
-        def navs = 'cd hellonode\n git pull origin master'
+        def navs = 'cd hellonode\n sudo git pull origin master'
       /*  def navss = 'git pull origin master'
       /*  def co1 = ["git", "checkout", "master"]
        /* def co2 = ["git", "pull", "origin", "master"]

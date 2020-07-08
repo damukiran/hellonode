@@ -10,7 +10,7 @@ node {
     /*  def git = 'git branch'*/
     /*  def inst = 'cd hellonode\n git fetch --all\n git reset --hard origin/master' */
        /* def navs = 'sh /home/ubuntu/hellonode/gitscript.sh'*/
-      def navss = 'cd hellonode && git checkout master && git pull origin master'
+      def navss = 'cd hellonode && git checkout master && git pull'
       /*  def co1 = ["git", "checkout", "master"]
        /* def co2 = ["git", "pull", "origin", "master"]
      /*   def co3 = ["git", "branch", "-r", "--no-merged", "master"]

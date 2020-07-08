@@ -9,4 +9,4 @@ var server = http.createServer(function (request, response) {
 
 // listen on localhost:8000
 server.listen(7000);
-console.log("Now updating successfully://127.0.0.1:7000/");
+console.log(" just updating successfully://127.0.0.1:7000/");

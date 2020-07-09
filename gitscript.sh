@@ -1,2 +1,3 @@
-cd hellonode && git checkout master && git pull origin master && npm install -g pm2
+cd hellonode && git checkout master && git pull origin master && sudo npm i -g pm2
+
 

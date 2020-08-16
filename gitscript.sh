@@ -1,2 +1,2 @@
-cd hellonode && git checkout master && git pull origin master && npm start &
+cd hellonode && git checkout master && git pull origin master && forever main.js
 

@@ -1,12 +1,12 @@
-// load the http module
-var http = require('http');
+const https = require('https');
+const fs = require('fs');
 
-// configure our HTTP server
-var server = http.createServer(function (request, response) {
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("just showing  forever restart demo\n");
-});
+const options = {
+  key: fs.readFileSync('key.pem'),
+  cert: fs.readFileSync('cert.pem')
+};
 
-// listen on localhost:8000
-server.listen(6000);
-console.log(" updating successfully://127.0.0.1:6000/");
+https.createServer(options, function (req, res) {
+  res.writeHead(200);
+  res.end("hello world\n");
+}).listen(8000);

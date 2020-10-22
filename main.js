@@ -9,5 +9,6 @@ const fs = require('fs');
 http.createServer( function (req, res) {
   res.writeHead(200);
   res.end("hello world\n");
-console.log('connected with port 6000')
 }).listen(6000);
+console.log('connected with port 6000')
+
